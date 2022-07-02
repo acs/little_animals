@@ -28,7 +28,7 @@
 
 ## Book 3
 
-* Chapter 1: Paris urbanization. Horrible GOlder Hamster.
+* Chapter 1: Paris urbanization. Horrible Golder Hamster.
 * Chapter 2: Out of Paris Castle. Brown dog with armature and sword.
 * Chapter 3: Paris Castle. White Dog King.
 * Chapter 4: Disco. Disco Monkey.
