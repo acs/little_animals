@@ -6,7 +6,7 @@
 * Chapter 2: Streets. Organge cat.
 * Chapter 3: The urbanization. Green bird.
 * Chapter 4: Forest. Wolf.
-* Chapter 5: Hamsters Adoption Center. Golden master.
+* Chapter 5: Hamsters Adoption Center. Golden hamster.
 * Chpater 6: Caves. Grizzly.
 * Chapter 7: Sewers. Crocodile.
 * Chapter 8: Alleis. Russian Hamster.
