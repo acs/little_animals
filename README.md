@@ -21,7 +21,7 @@
 * Chapter 4: Airport. Black Chiguagua.
 * Chapter 5: Plane. Dalmatian dog.
 * Chpater 6: Underground. Yellow cat.
-* Chapter 7: Paris. Browk dog of Paris.
+* Chapter 7: Paris. Brown dog of Paris.
 * Chapter 8: Paris Hotel. Monkey of Paris.
 * Chapter 9: Paris cruise. Clown Fish with Sword.
 * Chapter 10: Train. Puff viper.
