@@ -1,4 +1,4 @@
-[gd_scene load_steps=14 format=2]
+[gd_scene load_steps=15 format=2]
 
 [ext_resource path="res://Animal.gd" type="Script" id=1]
 
@@ -24,7 +24,12 @@ noise = SubResource( 9 )
 albedo_color = Color( 0.878431, 0.0941176, 0.0941176, 1 )
 albedo_texture = SubResource( 10 )
 
+[sub_resource type="SpatialMaterial" id=13]
+albedo_color = Color( 0.466667, 0.466667, 0.466667, 1 )
+metallic = 1.0
+
 [sub_resource type="CubeMesh" id=7]
+material = SubResource( 13 )
 size = Vector3( 10, 10, 0.1 )
 
 [sub_resource type="BoxShape" id=8]
@@ -37,7 +42,7 @@ tracks/0/path = NodePath("Animal/AnimalModel:rotation_degrees")
 tracks/0/interp = 1
 tracks/0/loop_wrap = true
 tracks/0/imported = false
-tracks/0/enabled = true
+tracks/0/enabled = false
 tracks/0/keys = {
 "times": PoolRealArray( 0 ),
 "transitions": PoolRealArray( 1 ),
@@ -55,10 +60,10 @@ tracks/0/loop_wrap = true
 tracks/0/imported = false
 tracks/0/enabled = true
 tracks/0/keys = {
-"times": PoolRealArray( 0, 1 ),
-"transitions": PoolRealArray( 1, 1 ),
+"times": PoolRealArray( 0, 0.5, 1 ),
+"transitions": PoolRealArray( 1, 1, 1 ),
 "update": 0,
-"values": [ Vector3( 180, 0, 0 ), Vector3( 0, 0, 0 ) ]
+"values": [ Vector3( 0, 0, 0 ), Vector3( -180, 0, 0 ), Vector3( -360, 0, 0 ) ]
 }
 
 [node name="AdoptionCenter" type="Spatial"]
@@ -81,6 +86,7 @@ script = ExtResource( 1 )
 shape = SubResource( 3 )
 
 [node name="AnimalModel" type="MeshInstance" parent="Animal"]
+transform = Transform( 1, 0, 0, 0, -0.979921, -0.199386, 0, 0.199386, -0.979921, 0, 0, 0 )
 mesh = SubResource( 4 )
 material/0 = SubResource( 6 )
 
